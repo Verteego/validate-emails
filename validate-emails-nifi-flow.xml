@@ -1,0 +1,1132 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.0">
+  <description></description>
+  <groupId>0603744f-0158-1000-9fe3-fe6aec875832</groupId>
+  <name>validate-emails-nifi-flow</name>
+  <snippet>
+    <connections>
+      <id>0158102f-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>0158101e-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>splits</selectedRelationships>
+      <source>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>01581020-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>01581042-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>01581021-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>matched</selectedRelationships>
+      <selectedRelationships>unmatched</selectedRelationships>
+      <source>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>0158101e-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>01581072-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>01581020-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>0158102d-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>01581091-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>0158108f-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>0158108e-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>01581092-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>01581090-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <selectedRelationships>merged</selectedRelationships>
+      <source>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>0158108f-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>01581093-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>0158108e-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>original</selectedRelationships>
+      <source>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>01581021-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>01581094-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>0158106b-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>0603744f-0158-1000-0000-000000000000</groupId>
+        <id>01581090-c5cc-1f98-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <processors>
+      <id>0158101e-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>832.5991034918118</x>
+        <y>0.5943852933778544</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Character Set</key>
+            <value>
+              <name>Character Set</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>
+              <name>Maximum Buffer Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Capture Group Length</key>
+            <value>
+              <name>Maximum Capture Group Length</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Enable Canonical Equivalence</key>
+            <value>
+              <name>Enable Canonical Equivalence</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Enable Case-insensitive Matching</key>
+            <value>
+              <name>Enable Case-insensitive Matching</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Permit Whitespace and Comments in Pattern</key>
+            <value>
+              <name>Permit Whitespace and Comments in Pattern</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Enable DOTALL Mode</key>
+            <value>
+              <name>Enable DOTALL Mode</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Enable Literal Parsing of the Pattern</key>
+            <value>
+              <name>Enable Literal Parsing of the Pattern</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Enable Multiline Mode</key>
+            <value>
+              <name>Enable Multiline Mode</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Enable Unicode-aware Case Folding</key>
+            <value>
+              <name>Enable Unicode-aware Case Folding</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Enable Unicode Predefined Character Classes</key>
+            <value>
+              <name>Enable Unicode Predefined Character Classes</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Enable Unix Lines Mode</key>
+            <value>
+              <name>Enable Unix Lines Mode</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Include Capture Group 0</key>
+            <value>
+              <name>Include Capture Group 0</name>
+            </value>
+          </entry>
+          <entry>
+            <key>extract-text-enable-repeating-capture-group</key>
+            <value>
+              <name>extract-text-enable-repeating-capture-group</name>
+            </value>
+          </entry>
+          <entry>
+            <key>email</key>
+            <value>
+              <name>email</name>
+            </value>
+          </entry>
+          <entry>
+            <key>line</key>
+            <value>
+              <name>line</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Character Set</key>
+            <value>UTF-8</value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>1 MB</value>
+          </entry>
+          <entry>
+            <key>Maximum Capture Group Length</key>
+            <value>1024</value>
+          </entry>
+          <entry>
+            <key>Enable Canonical Equivalence</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Enable Case-insensitive Matching</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Permit Whitespace and Comments in Pattern</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Enable DOTALL Mode</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Enable Literal Parsing of the Pattern</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Enable Multiline Mode</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Enable Unicode-aware Case Folding</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Enable Unicode Predefined Character Classes</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Enable Unix Lines Mode</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Include Capture Group 0</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>extract-text-enable-repeating-capture-group</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>email</key>
+            <value>^(.+?),</value>
+          </entry>
+          <entry>
+            <key>line</key>
+            <value>(?s)(^.*$)</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Extract email</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>matched</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>unmatched</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ExtractText</type>
+    </processors>
+    <processors>
+      <id>01581020-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>422.04453885485236</x>
+        <y>0.46214970319624626</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Line Split Count</key>
+            <value>
+              <name>Line Split Count</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Fragment Size</key>
+            <value>
+              <name>Maximum Fragment Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Header Line Count</key>
+            <value>
+              <name>Header Line Count</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Header Line Marker Characters</key>
+            <value>
+              <name>Header Line Marker Characters</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Remove Trailing Newlines</key>
+            <value>
+              <name>Remove Trailing Newlines</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Line Split Count</key>
+            <value>1</value>
+          </entry>
+          <entry>
+            <key>Maximum Fragment Size</key>
+          </entry>
+          <entry>
+            <key>Header Line Count</key>
+            <value>1</value>
+          </entry>
+          <entry>
+            <key>Header Line Marker Characters</key>
+          </entry>
+          <entry>
+            <key>Remove Trailing Newlines</key>
+            <value>true</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Split file into lines</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>splits</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.SplitText</type>
+    </processors>
+    <processors>
+      <id>01581021-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1217.7614582114204</x>
+        <y>0.0</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Command Arguments</key>
+            <value>
+              <name>Command Arguments</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Command Path</key>
+            <value>
+              <name>Command Path</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Ignore STDIN</key>
+            <value>
+              <name>Ignore STDIN</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Working Directory</key>
+            <value>
+              <name>Working Directory</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Argument Delimiter</key>
+            <value>
+              <name>Argument Delimiter</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Output Destination Attribute</key>
+            <value>
+              <name>Output Destination Attribute</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Max Attribute Length</key>
+            <value>
+              <name>Max Attribute Length</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Command Arguments</key>
+            <value>${email}</value>
+          </entry>
+          <entry>
+            <key>Command Path</key>
+            <value>/home/demos/validate-emails/validate-email.sh</value>
+          </entry>
+          <entry>
+            <key>Ignore STDIN</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Working Directory</key>
+          </entry>
+          <entry>
+            <key>Argument Delimiter</key>
+            <value>;</value>
+          </entry>
+          <entry>
+            <key>Output Destination Attribute</key>
+            <value>email_validation_output</value>
+          </entry>
+          <entry>
+            <key>Max Attribute Length</key>
+            <value>256</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Validate email</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ExecuteStreamCommand</type>
+    </processors>
+    <processors>
+      <id>0158102d-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>4.233558080843977</x>
+        <y>1.0358830957407008</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Input Directory</key>
+            <value>
+              <name>Input Directory</name>
+            </value>
+          </entry>
+          <entry>
+            <key>File Filter</key>
+            <value>
+              <name>File Filter</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Path Filter</key>
+            <value>
+              <name>Path Filter</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>
+              <name>Batch Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Keep Source File</key>
+            <value>
+              <name>Keep Source File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Recurse Subdirectories</key>
+            <value>
+              <name>Recurse Subdirectories</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Polling Interval</key>
+            <value>
+              <name>Polling Interval</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Ignore Hidden Files</key>
+            <value>
+              <name>Ignore Hidden Files</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum File Age</key>
+            <value>
+              <name>Minimum File Age</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum File Age</key>
+            <value>
+              <name>Maximum File Age</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum File Size</key>
+            <value>
+              <name>Minimum File Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum File Size</key>
+            <value>
+              <name>Maximum File Size</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Input Directory</key>
+            <value>/home/demos/validate-emails/cleaned</value>
+          </entry>
+          <entry>
+            <key>File Filter</key>
+            <value>[^\.].*</value>
+          </entry>
+          <entry>
+            <key>Path Filter</key>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>10</value>
+          </entry>
+          <entry>
+            <key>Keep Source File</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Recurse Subdirectories</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Polling Interval</key>
+            <value>60 sec</value>
+          </entry>
+          <entry>
+            <key>Ignore Hidden Files</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Minimum File Age</key>
+            <value>0 sec</value>
+          </entry>
+          <entry>
+            <key>Maximum File Age</key>
+          </entry>
+          <entry>
+            <key>Minimum File Size</key>
+            <value>0 B</value>
+          </entry>
+          <entry>
+            <key>Maximum File Size</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Load CSV file</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.GetFile</type>
+    </processors>
+    <processors>
+      <id>0158106b-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>206.36946275058835</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Directory</key>
+            <value>
+              <name>Directory</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Conflict Resolution Strategy</key>
+            <value>
+              <name>Conflict Resolution Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Create Missing Directories</key>
+            <value>
+              <name>Create Missing Directories</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum File Count</key>
+            <value>
+              <name>Maximum File Count</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Last Modified Time</key>
+            <value>
+              <name>Last Modified Time</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Permissions</key>
+            <value>
+              <name>Permissions</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Owner</key>
+            <value>
+              <name>Owner</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Group</key>
+            <value>
+              <name>Group</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Directory</key>
+            <value>/home/demos/validate-emails/output</value>
+          </entry>
+          <entry>
+            <key>Conflict Resolution Strategy</key>
+            <value>fail</value>
+          </entry>
+          <entry>
+            <key>Create Missing Directories</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Maximum File Count</key>
+          </entry>
+          <entry>
+            <key>Last Modified Time</key>
+          </entry>
+          <entry>
+            <key>Permissions</key>
+          </entry>
+          <entry>
+            <key>Owner</key>
+          </entry>
+          <entry>
+            <key>Group</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Write file to output folder</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.PutFile</type>
+    </processors>
+    <processors>
+      <id>0158108e-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1221.3896632145465</x>
+        <y>213.7110889181131</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Regular Expression</key>
+            <value>
+              <name>Regular Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Replacement Value</key>
+            <value>
+              <name>Replacement Value</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>
+              <name>Character Set</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>
+              <name>Maximum Buffer Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Replacement Strategy</key>
+            <value>
+              <name>Replacement Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Evaluation Mode</key>
+            <value>
+              <name>Evaluation Mode</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Regular Expression</key>
+            <value>(?s)(^.*$)</value>
+          </entry>
+          <entry>
+            <key>Replacement Value</key>
+            <value>${line},${email_validation_output}</value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>UTF-8</value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>1 MB</value>
+          </entry>
+          <entry>
+            <key>Replacement Strategy</key>
+            <value>Regex Replace</value>
+          </entry>
+          <entry>
+            <key>Evaluation Mode</key>
+            <value>Entire text</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Add validation status to line</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ReplaceText</type>
+    </processors>
+    <processors>
+      <id>0158108f-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>830.3871747877597</x>
+        <y>208.7384311008932</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Merge Strategy</key>
+            <value>
+              <name>Merge Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Merge Format</key>
+            <value>
+              <name>Merge Format</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Attribute Strategy</key>
+            <value>
+              <name>Attribute Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Correlation Attribute Name</key>
+            <value>
+              <name>Correlation Attribute Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum Number of Entries</key>
+            <value>
+              <name>Minimum Number of Entries</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Number of Entries</key>
+            <value>
+              <name>Maximum Number of Entries</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum Group Size</key>
+            <value>
+              <name>Minimum Group Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Group Size</key>
+            <value>
+              <name>Maximum Group Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Max Bin Age</key>
+            <value>
+              <name>Max Bin Age</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum number of Bins</key>
+            <value>
+              <name>Maximum number of Bins</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Delimiter Strategy</key>
+            <value>
+              <name>Delimiter Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Header File</key>
+            <value>
+              <name>Header File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Footer File</key>
+            <value>
+              <name>Footer File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Demarcator File</key>
+            <value>
+              <name>Demarcator File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Compression Level</key>
+            <value>
+              <name>Compression Level</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Keep Path</key>
+            <value>
+              <name>Keep Path</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Merge Strategy</key>
+            <value>Bin-Packing Algorithm</value>
+          </entry>
+          <entry>
+            <key>Merge Format</key>
+            <value>Binary Concatenation</value>
+          </entry>
+          <entry>
+            <key>Attribute Strategy</key>
+            <value>Keep All Unique Attributes</value>
+          </entry>
+          <entry>
+            <key>Correlation Attribute Name</key>
+            <value>email_validation_output</value>
+          </entry>
+          <entry>
+            <key>Minimum Number of Entries</key>
+            <value>10000</value>
+          </entry>
+          <entry>
+            <key>Maximum Number of Entries</key>
+            <value>10000</value>
+          </entry>
+          <entry>
+            <key>Minimum Group Size</key>
+            <value>0 B</value>
+          </entry>
+          <entry>
+            <key>Maximum Group Size</key>
+          </entry>
+          <entry>
+            <key>Max Bin Age</key>
+            <value>10 minutes</value>
+          </entry>
+          <entry>
+            <key>Maximum number of Bins</key>
+            <value>5</value>
+          </entry>
+          <entry>
+            <key>Delimiter Strategy</key>
+            <value>Text</value>
+          </entry>
+          <entry>
+            <key>Header File</key>
+            <value>Email Address,email validation,Civility,Last Name,First Name,Department,Title,Phone,Mobile,Company,NAF,SIRET,Activity,Website,No. Of employees,Other phone,CA,Fax,Mailing Street,Adresse2,Adresse3,Mailing Zip,Mailing City,Mailing State,Region,Departement,Email status
+</value>
+          </entry>
+          <entry>
+            <key>Footer File</key>
+          </entry>
+          <entry>
+            <key>Demarcator File</key>
+          </entry>
+          <entry>
+            <key>Compression Level</key>
+            <value>1</value>
+          </entry>
+          <entry>
+            <key>Keep Path</key>
+            <value>false</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Merge lines by validation status</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>merged</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.MergeContent</type>
+    </processors>
+    <processors>
+      <id>01581090-c5cc-1f98-0000-000000000000</id>
+      <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>418.70923477191695</x>
+        <y>205.69320871054924</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Delete Attributes Expression</key>
+            <value>
+              <name>Delete Attributes Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>filename</key>
+            <value>
+              <name>filename</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Delete Attributes Expression</key>
+          </entry>
+          <entry>
+            <key>filename</key>
+            <value>output_${uuid}.csv</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Update file name</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+    </processors>
+  </snippet>
+  <timestamp>11/08/2016 15:07:04 UTC</timestamp>
+</template>
