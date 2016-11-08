@@ -8,7 +8,7 @@ parser.add_option("-e", "--email", dest="email", help ="Email address to check")
 (options, args) = parser.parse_args()
 
 # Simple Regex for syntax checking
-regex = '^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$'
+regex = '^[_a-zA-Z0-9-]+(\.[_a-zA-Z0-9-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,4})$'
 
 # Email address to verify
 inputAddress = options.email
