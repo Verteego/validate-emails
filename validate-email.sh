@@ -1,1 +1,1 @@
-python /home/demos/validate-emails/VerifyEmailAddress.py -e $1
+python /home/demos/validate-emails/VerifyEmailAddress.py -e "$1"
