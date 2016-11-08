@@ -1,5 +1,3 @@
-__author__ = 'schiessl'
-
 import re
 import dns.resolver
 from optparse import OptionParser
