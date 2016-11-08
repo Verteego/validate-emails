@@ -4,6 +4,7 @@ import re
 import dns.resolver
 from optparse import OptionParser
 
+# parse incoming arguments
 parser = OptionParser()
 parser.add_option("-e", "--email", dest="email", help ="Email address to check")
 (options, args) = parser.parse_args()
@@ -24,7 +25,8 @@ else:
     # Get domain for DNS lookup
     splitAddress = addressToVerify.split('@')
     domain = str(splitAddress[1])
-    
+   
+    #try to contact the domain 
     try:
         records = dns.resolver.query(domain, 'MX')
         mxRecord = records[0].exchange
