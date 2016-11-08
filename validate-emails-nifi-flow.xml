@@ -351,7 +351,7 @@
       <id>01581020-c5cc-1f98-0000-000000000000</id>
       <parentGroupId>0603744f-0158-1000-0000-000000000000</parentGroupId>
       <position>
-        <x>422.04453885485236</x>
+        <x>420.57066190172736</x>
         <y>0.46214970319624626</y>
       </position>
       <config>
@@ -402,7 +402,7 @@
           </entry>
           <entry>
             <key>Header Line Count</key>
-            <value>1</value>
+            <value>0</value>
           </entry>
           <entry>
             <key>Header Line Marker Characters</key>
@@ -1128,5 +1128,5 @@
       <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
     </processors>
   </snippet>
-  <timestamp>11/08/2016 15:07:04 UTC</timestamp>
+  <timestamp>11/08/2016 16:23:34 UTC</timestamp>
 </template>
